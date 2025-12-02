@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="integration.IntegrationIT" time="9.737" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/otibhoedeoghon/Desktop/Oseme/Final project Lab/FoodDeliveryEcosystem/target/test-classes:/Users/otibhoedeoghon/Desktop/Oseme/Final project Lab/FoodDeliveryEcosystem/target/classes:/Users/otibhoedeoghon/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar:/Users/otibhoedeoghon/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar:/Users/otibhoedeoghon/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/otibhoedeoghon/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/otibhoedeoghon/.m2/repository/org/testcontainers/mysql/1.19.0/mysql-1.19.0.jar:/Users/otibhoedeoghon/.m2/repository/org/testcontainers/jdbc/1.19.0/jdbc-1.19.0.jar:/Users/otibhoedeoghon/.m2/repository/org/testcontainers/database-commons/1.19.0/database-commons-1.19.0.jar:/Users/otibhoedeoghon/.m2/repository/org/testcontainers/testcontainers/1.19.0/testcontainers-1.19.0.jar:/Users/otibhoedeoghon/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/otibhoedeoghon/.m2/repository/org/apache/commons/commons-compress/1.23.0/commons-compress-1.23.0.jar:/Users/otibhoedeoghon/.m2/repository/org/rnorth/duct-tape/duct-tape/1.0.8/duct-tape-1.0.8.jar:/Users/otibhoedeoghon/.m2/repository/org/jetbrains/annotations/17.0.0/annotations-17.0.0.jar:/Users/otibhoedeoghon/.m2/repository/com/github/docker-java/docker-java-api/3.3.3/docker-java-api-3.3.3.jar:/Users/otibhoedeoghon/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/otibhoedeoghon/.m2/repository/com/github/docker-java/docker-java-transport-zerodep/3.3.3/docker-java-transport-zerodep-3.3.3.jar:/Users/otibhoedeoghon/.m2/repository/com/github/docker-java/docker-java-transport/3.3.3/docker-java-transport-3.3.3.jar:/Users/otibhoedeoghon/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/otibhoedeoghon/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-25.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/otibhoedeoghon/Desktop/Oseme/Final project Lab/FoodDeliveryEcosystem/target/surefire/surefirebooter-20251127113708543_3.jar /Users/otibhoedeoghon/Desktop/Oseme/Final project Lab/FoodDeliveryEcosystem/target/surefire 2025-11-27T11-37-08_498-jvmRun1 surefire-20251127113708543_1tmp surefire_0-20251127113708543_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="integration.IntegrationIT"/>
+    <property name="surefire.test.class.path" value="/Users/otibhoedeoghon/Desktop/Oseme/Final project Lab/FoodDeliveryEcosystem/target/test-classes:/Users/otibhoedeoghon/Desktop/Oseme/Final project Lab/FoodDeliveryEcosystem/target/classes:/Users/otibhoedeoghon/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar:/Users/otibhoedeoghon/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar:/Users/otibhoedeoghon/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/otibhoedeoghon/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/otibhoedeoghon/.m2/repository/org/testcontainers/mysql/1.19.0/mysql-1.19.0.jar:/Users/otibhoedeoghon/.m2/repository/org/testcontainers/jdbc/1.19.0/jdbc-1.19.0.jar:/Users/otibhoedeoghon/.m2/repository/org/testcontainers/database-commons/1.19.0/database-commons-1.19.0.jar:/Users/otibhoedeoghon/.m2/repository/org/testcontainers/testcontainers/1.19.0/testcontainers-1.19.0.jar:/Users/otibhoedeoghon/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/otibhoedeoghon/.m2/repository/org/apache/commons/commons-compress/1.23.0/commons-compress-1.23.0.jar:/Users/otibhoedeoghon/.m2/repository/org/rnorth/duct-tape/duct-tape/1.0.8/duct-tape-1.0.8.jar:/Users/otibhoedeoghon/.m2/repository/org/jetbrains/annotations/17.0.0/annotations-17.0.0.jar:/Users/otibhoedeoghon/.m2/repository/com/github/docker-java/docker-java-api/3.3.3/docker-java-api-3.3.3.jar:/Users/otibhoedeoghon/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/otibhoedeoghon/.m2/repository/com/github/docker-java/docker-java-transport-zerodep/3.3.3/docker-java-transport-zerodep-3.3.3.jar:/Users/otibhoedeoghon/.m2/repository/com/github/docker-java/docker-java-transport/3.3.3/docker-java-transport-3.3.3.jar:/Users/otibhoedeoghon/.m2/repository/net/java/dev/jna/jna/5.12.1/jna-5.12.1.jar:/Users/otibhoedeoghon/.m2/repository/org/slf4j/slf4j-simple/1.7.36/slf4j-simple-1.7.36.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/otibhoedeoghon"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-09-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-25.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/otibhoedeoghon/Desktop/Oseme/Final project Lab/FoodDeliveryEcosystem"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/otibhoedeoghon/Desktop/Oseme/Final project Lab/FoodDeliveryEcosystem/target/surefire/surefirebooter-20251127113708543_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25+37-LTS-3491"/>
+    <property name="user.name" value="otibhoedeoghon"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.1"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/otibhoedeoghon/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/7n/yr1c0txd2l9gvsdndvt_5m2h0000gn/T/"/>
+    <property name="java.version" value="25"/>
+    <property name="user.dir" value="/Users/otibhoedeoghon/Desktop/Oseme/Final project Lab/FoodDeliveryEcosystem"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="failIfNoTests" value="false"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/otibhoedeoghon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25+37-LTS-3491"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testEnterpriseAndMenuItemCrud" classname="integration.IntegrationIT" time="0.534">
+    <system-out><![CDATA[Database connected successfully!
+Database connected successfully!
+Database connected successfully!
+Database connected successfully!
+Database connected successfully!
+Database connected successfully!
+Database connected successfully!
+Database connected successfully!
+Database connected successfully!
+Database connected successfully!
+Database connected successfully!
+Database connected successfully!
+Database connected successfully!
+Database connected successfully!
+Database connected successfully!
+Database connected successfully!
+]]></system-out>
+    <system-err><![CDATA[[main] INFO org.testcontainers.utility.ImageNameSubstitutor - Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+[main] INFO org.testcontainers.dockerclient.DockerClientProviderStrategy - Loaded org.testcontainers.dockerclient.UnixSocketClientProviderStrategy from ~/.testcontainers.properties, will try it first
+[main] INFO org.testcontainers.dockerclient.DockerClientProviderStrategy - Found Docker environment with local Unix socket (unix:///var/run/docker.sock)
+[main] INFO org.testcontainers.DockerClientFactory - Docker host IP address is localhost
+[main] INFO org.testcontainers.DockerClientFactory - Connected to docker: 
+  Server Version: 28.5.1
+  API Version: 1.51
+  Operating System: Docker Desktop
+  Total Memory: 3919 MB
+[main] INFO tc.testcontainers/ryuk:0.5.1 - Creating container for image: testcontainers/ryuk:0.5.1
+[main] INFO org.testcontainers.utility.RegistryAuthLocator - Credential helper/store (docker-credential-desktop) does not have credentials for https://index.docker.io/v1/
+[main] INFO tc.testcontainers/ryuk:0.5.1 - Container testcontainers/ryuk:0.5.1 is starting: 3c26291481ae2813000ca7f1abd8414522e892447a622b6faba5e35148987916
+[main] INFO tc.testcontainers/ryuk:0.5.1 - Container testcontainers/ryuk:0.5.1 started in PT0.58641S
+[main] INFO org.testcontainers.utility.RyukResourceReaper - Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+[main] INFO org.testcontainers.DockerClientFactory - Checking the system...
+[main] INFO org.testcontainers.DockerClientFactory - ✔︎ Docker server version should be at least 1.6.0
+[main] INFO tc.mysql:8.0 - Creating container for image: mysql:8.0
+[main] INFO tc.mysql:8.0 - Container mysql:8.0 is starting: 9d4185e7a0cc93d84a36399f0c06531e86f85ce171a2b3e0dac28556c7b1d517
+[main] INFO tc.mysql:8.0 - Waiting for database connection to become available at jdbc:mysql://localhost:61270/testdb using query 'SELECT 1'
+[main] INFO tc.mysql:8.0 - Container mysql:8.0 started in PT7.857708S
+[main] INFO tc.mysql:8.0 - Container is started (JDBC URL: jdbc:mysql://localhost:61270/testdb)
+]]></system-err>
+  </testcase>
+</testsuite>
